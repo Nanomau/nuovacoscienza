@@ -1,0 +1,144 @@
+/* Stile di base per il corpo del sito */
+body {
+  font-family: "Times New Roman", Times, serif;
+   background-color: #e6e6fa; /* Stile  lavender */
+  color: #333;
+  line-height: 1.2;
+  margin-left: 60px; /* Sposta tutti i testi a 20 pixel a destra */
+  padding: 10px;
+
+}
+
+/* Intestazione del sito */
+header {
+  background-color: #ffd700;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Stile per i link */
+a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Menu di navigazione */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Contenuto principale */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* Footer del sito */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Stili per i pulsanti */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+/* Stile di base per la tabella */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Stile per l'intestazione della tabella */
+th {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Stile per le celle della tabella */
+td, th {
+  border: 2px solid #ddd;
+  padding: 8px;
+  box-shadow: 3px 3px 3px #CCCCCC;
+}
+
+/* Colori alternati per le righe */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Stile per il testo all'interno delle celle */
+td {
+  text-align: left;
+}
+
+/* Stile per il link all'interno delle celle */
+td a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+/* Stile per le liste non ordinate */
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Stile per le liste ordinate */
+ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+}
+
+/* Stile per gli elementi delle liste */
+li {
+  margin: 5px 0;
+}
+
+/* Stile per i link all'interno degli elementi delle liste */
+li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
